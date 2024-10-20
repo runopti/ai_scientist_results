@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "error_diffusion_learning_without_backprop",
+        "Title": "Error Diffusion: Learning Neural Networks without Backpropagation",
+        "Experiment": "Modify the activation functions to see which activation functions work best. Use xor, gaussian, spiral, and circle datasets. Modify the input representation (e.g. one for regular floating numbers, one for binary representation). Compare the training dynamics, convergence speed, and final performance.",
+        "Interestingness": 6,
+        "Feasibility": 4,
+        "Novelty": 6,
+        "novel": true
+    },
+    {
+        "Name": "architecture_variations_error_diffusion",
+        "Title": "Exploring Architectural Variations in Neural Networks with Error Diffusion Training",
+        "Experiment": "Modify the `NeuralNetwork` class to allow flexible configurations of network architectures, including varying the number of hidden layers and neurons per layer. Example configurations could include: (1) Single hidden layer with 8 neurons, (2) Two hidden layers with 8 neurons each, (3) Single hidden layer with 16 neurons. Conduct experiments with these and other configurations on the XOR, Gaussian, Spiral, and Circle datasets. Compare training dynamics using training loss and accuracy curves, and assess final performances to identify optimal architectural patterns for error diffusion training.",
+        "Interestingness": 7,
+        "Feasibility": 7,
+        "Novelty": 7,
+        "novel": true
+    }
+]

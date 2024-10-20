@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "error_diffusion_learning_without_backprop",
+    "Title": "Error Diffusion: Learning Neural Networks without Backpropagation",
+    "Experiment": "Modify the activation functions to see which activation functions work best. Use xor, gaussian, spiral, and circle datasets. Modify the input representation (e.g. one for regular floating numbers, one for binary representation). Compare the training dynamics, convergence speed, and final performance.",
+    "Interestingness": 6,
+    "Feasibility": 4,
+    "Novelty": 6
+  }
+]

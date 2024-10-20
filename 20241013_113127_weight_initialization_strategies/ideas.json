@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "error_diffusion_learning_without_backprop",
+        "Title": "Error Diffusion: Learning Neural Networks without Backpropagation",
+        "Experiment": "Modify the activation functions to see which activation functions work best. Use xor, gaussian, spiral, and circle datasets. Modify the input representation (e.g. one for regular floating numbers, one for binary representation). Compare the training dynamics, convergence speed, and final performance.",
+        "Interestingness": 6,
+        "Feasibility": 4,
+        "Novelty": 6,
+        "novel": true
+    },
+    {
+        "Name": "weight_initialization_strategies",
+        "Title": "The Impact of Weight Initialization Strategies on Error Diffusion Learning",
+        "Experiment": "Implement several weight initialization strategies (e.g., Xavier, He, uniform random, normal distribution) in the init_network function. Include a baseline using the default initialization. Train the neural network on xor, gaussian, spiral, and circle datasets using these initialization methods. Compare the training dynamics, convergence speed, and final performance for each initialization strategy. Modify the init_network method in the NeuralNetwork class to incorporate these strategies. Track metrics such as training loss, accuracy, and time to convergence consistently across different runs. Analyze and compare the results.",
+        "Interestingness": 7,
+        "Feasibility": 6,
+        "Novelty": 7,
+        "novel": true
+    }
+]
